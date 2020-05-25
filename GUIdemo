@@ -1,0 +1,23 @@
+from tkinter import *
+
+root=Tk()
+
+root.title("My name is enough")
+root.wm_iconbitmap("ACU.ico")
+root.geometry("500x500")
+
+f1=Frame(master=root,width=500,height=500,bg="blue")
+f1.propagate(0)
+f1.pack()
+
+
+l1=Label(master=f1,text="Hello world",bg="yellow",fg="red",font=('arial',25,'bold'))
+l1.pack()
+
+
+b1=Button(master=f1,text='REd00')
+b1.pack()
+
+b2=Button(master=f1,text='B;ack')
+b2.pack()
+root.mainloop()
